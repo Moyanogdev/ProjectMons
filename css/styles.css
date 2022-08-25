@@ -42,6 +42,13 @@
     color: black;
 }
 
+iframe{
+    border-radius: 36px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
 .iconFooter{
     color: white;
     font-size: 40px;
