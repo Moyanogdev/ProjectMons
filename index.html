@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="./img/logofavIcon.ico">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Home | MONS</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navHeader">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <!--Imagen con el logo de la marca-->
+                    <img src="img/monsLogo.png" alt="Logo de la marca" width="200" height="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto align-items-center">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="#">Nuestros Productos</a>
+                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="container-fluid px-0">
+            <!--Carousel de imágenes con bootstrap tipo slide-->
+            
+            <div id="imgCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="./img/burguerHome.jpg" class="d-block w-100 imgIntro" alt="Imagen presentación Burguer N°1">  
+                    </div>
+                            
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="./img/burguerHome2.jpg" class="d-block w-100 imgIntro" alt="Imagen presentación Burguer N°2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="./img/burguerHome3.jpg" class="d-block w-100 imgIntro" alt="Imagen presentación Burguer N°3">
+                    </div>
+                </div>
+                <!--Botones para avanzar y retroceder en el carousel de imágenes - bootstrap-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#imgCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#imgCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="bg-white py-5">
+            <a name="home"></a>
+            <div class="container py-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 justify-content-center">
+                        <div class="text-center mb-5">
+                            <h1 class="mb-3">¿Dónde Encontrarnos?</h1>
+                            <img src="./img/casaBurguer.png" alt="Imagen de Negocio Burguer" width="200" height="200">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates voluptas molestias nesciunt veritatis temporibus nemo nisi veniam distinctio itaque. Dolor voluptatibus quisquam sequi repellat omnis voluptas aliquam saepe deserunt dolorum?.</p>
+                        <p class="mb-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque enim consectetur libero magnam.</p>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates voluptas molestias nesciunt veritatis temporibus nemo nisi veniam distinctio itaque.</p>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.0981738747131!2d-64.19086927074477!3d-31.430854354512853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28bec80c243%3A0xa56d40bd4956b71b!2sIndependencia%201289-1263%2C%20X5000IUY%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1661390823699!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <section class="sectionContacto py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="d-flex justify-content-center align-items-center text-center">
+                            <div>
+                                <img src="./img/msjBurguer.png" alt="Imagen Mensaje" width="80" height="80">
+                            </div>
+                            <div class="ms-3">
+                                <p>Escribinos a:</p>
+                                <a class="mailMons" href="#">info@monsburguers.com</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footerNav bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row align-items-center justify-items-between">
+                <div class="col-md-4 mb-3 pt-3 text-center">
+                    <div>
+                        <p>©2022 MONS Burguers.</p>
+                    </div>
+                    <div>
+                        <p>Todos los derechos reservados.</p>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <img src="img/burguerFooter.png" alt="Imagen Logo Burguer Footer" width="200" height="220">
+                </div>
+                <!--Redes sociales de la tienda-->
+                <div class="col-md-4 mb-3 text-center">
+                    <div>
+                        <p>Seguinos en:</p>
+                    </div>
+                    <div>
+                        <a class="bi bi-youtube iconFooter" href="#"></a>
+                        <a class="bi bi-instagram iconFooter" href="#"></a>
+                        <a class="bi bi-facebook iconFooter" href="#"></a>
+                    </div>
+                </div>
+  
+            </div>
+  
+        </div>
+  
+    </footer>
+    
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

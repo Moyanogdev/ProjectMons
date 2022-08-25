@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Righteous;
+}
+
+.navHeader{
+    background-color: rgba(245,173,13,255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-link{
+    color: black;
+    margin-inline: 10px;
+    border-radius: 30px;
+}
+
+.nav-link:hover{
+    background-color:  black;
+    color:  rgba(245,173,13,255);
+}
+
+.navbar-toggler{
+    color: black;
+    border-color: black;
+    border-width: 3px;
+}
+
+.mailMons{
+    text-decoration: none;
+    color: black;
+}
+
+.mailMons:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.sectionContacto{
+    background-color: rgba(245,173,13,255);
+    color: black;
+}
+
+.iconFooter{
+    color: white;
+    font-size: 40px;
+    margin-inline: 8px;
+}
+
+.iconFooter:hover{
+    color: rgba(245,173,13,255);
+    transform: scale(1.1, 1.1);
+}
