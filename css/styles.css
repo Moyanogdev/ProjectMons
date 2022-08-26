@@ -18,7 +18,7 @@
 
 .nav-link:hover{
     background-color:  black;
-    color:  rgba(245,173,13,255);
+    color:  white;
 }
 
 .navbar-toggler{
@@ -47,6 +47,14 @@ iframe{
     border-color: black;
     border-width: 3px;
     border-style: solid;
+}
+
+.galeriaProductos img{
+    cursor: pointer;
+}
+
+#productosModal .modal-img{
+    width: 100%;
 }
 
 .iconFooter{
