@@ -57,6 +57,41 @@ iframe{
     width: 100%;
 }
 
+.imgProducto{
+    position: relative;
+    overflow: hidden;
+}
+
+.imgProducto img{
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.infoProducto{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgProducto:hover img{
+    opacity: 0.2;
+}
+
+.imgProducto:hover .infoProducto{
+    color: white;
+    opacity: 1;
+}
+
+.sectionGaleria{
+    background-color: rgba(245,173,13,255);
+    background-image: url(../img/fondoGaleria.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .iconFooter{
     color: white;
     font-size: 40px;
