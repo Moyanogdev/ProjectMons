@@ -7,7 +7,7 @@
 .navHeader{
     background-color: rgba(245,173,13,255);
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 550;
 }
 
 .nav-link{
@@ -17,8 +17,9 @@
 }
 
 .nav-link:hover{
-    background-color:  black;
+    background-color:  rgb(31, 30, 30);
     color:  white;
+    transition: .5s ease-in-out;
 }
 
 .navbar-toggler{
@@ -100,5 +101,5 @@ iframe{
 
 .iconFooter:hover{
     color: rgba(245,173,13,255);
-    transform: scale(1.1, 1.1);
+    transition: .3s ease-in-out;
 }
