@@ -103,3 +103,13 @@ iframe{
     color: rgba(245,173,13,255);
     transition: .3s ease-in-out;
 }
+
+.moyanogdev{
+    color: rgba(245,173,13,255);
+    text-decoration: none;
+}
+
+.moyanogdev:hover{
+    color: red;
+    transition: .4s ease-in-out;
+}
