@@ -1,9 +1,11 @@
+/* Estilos Generales del sitio */
 * {
     margin: 0;
     padding: 0;
     font-family: Righteous;
 }
 
+/* Estilos del Header */
 .navHeader{
     background-color: rgba(245,173,13,255);
     font-size: 18px;
@@ -28,6 +30,17 @@
     border-width: 3px;
 }
 
+/* ESTILOS INDEX | PÁGINA PRINCIPAL */
+
+/* Estilos Sección Dónde encontrarnos? */
+iframe{
+    border-radius: 36px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+/* Estilos Sección Contacto */
 .mailMons{
     text-decoration: none;
     color: black;
@@ -43,13 +56,9 @@
     color: black;
 }
 
-iframe{
-    border-radius: 36px;
-    border-color: black;
-    border-width: 3px;
-    border-style: solid;
-}
+/* ESTILOS PÁGINA PRODUCTOS */
 
+/* Estilos Sección Productos */
 .galeriaProductos img{
     cursor: pointer;
 }
@@ -86,6 +95,9 @@ iframe{
     opacity: 1;
 }
 
+/* ESTILOS PAGINA SOBRE NOSOTROS */
+
+/* Estilos sección Galería */
 .sectionGaleria{
     background-color: rgba(245,173,13,255);
     background-image: url(../img/fondoGaleria.png);
@@ -93,6 +105,8 @@ iframe{
     background-repeat: no-repeat;
 }
 
+
+/* Estilos Footer del sitio */
 .iconFooter{
     color: white;
     font-size: 40px;
